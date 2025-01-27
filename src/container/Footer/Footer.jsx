@@ -39,9 +39,10 @@ const Footer = () => (
       </div>
     </div>
 
-    <div className="footer__copyright">
-      <p className="p__opensans"> © 2022 Yummix. All Rights reserved.</p>
-    </div>
+    <div className="footer__copyright" style={{ marginTop: '2rem' }}>
+      <p className="p__opensans"> © 2024 Yummix. All Rights reserved.</p>
+      <p className="p__opensans" style={{color: '#DCCA87', fontSize: '1rem', textAlign: 'center'}}>Powered by <a href="https://www.brandpixel.agency/" target="_blank" rel="noopener noreferrer" style={{color: '#7A288A', fontSize: '1rem', textAlign: 'center', fontWeight: 'bold'}}>BrandPixelAgency</a></p>    
+      </div>
 
   </div>
 );
